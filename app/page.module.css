@@ -3,6 +3,7 @@
   height: 4000px;
 }
 
+
 .navbar {
   font-family: 'Space';
   display: flex;
@@ -383,4 +384,354 @@
   color: rgb(187, 175, 255);
   letter-spacing: 1px;
   font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .top {
+    height: 100%;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+  
+  /* Ocultar links de nav en tablet si hay demasiados — 
+     ajusta según tu HTML */
+  .navbar span {
+    margin-right: 12px;
+    font-size: 15px;
+  }
+  
+  .hero {
+    width: 90%;
+    margin-top: 120px;
+  }
+  
+  .hero h1 {
+    font-size: 58px;
+    width: 100%;
+  }
+  
+  .heroparrafo {
+    width: 100%;
+  }
+  
+  /* Section 1 */
+  .section1 {
+    width: 90%;
+    margin-top: 140px;
+  }
+  
+  .section1left h2 {
+    font-size: 38px;
+  }
+  
+  .section1right {
+    font-size: 17px;
+  }
+  
+  .bloq {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .card {
+    width: 47%;
+  }
+  
+  /* Section 2 */
+  .section2 {
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .section2title {
+    width: 90%;
+    margin-top: 140px;
+    font-size: 34px;
+  }
+  
+  .techcards {
+    width: 280px;
+    font-size: 24px;
+  }
+  
+  /* Section 3 */
+  .section3 {
+    width: 90%;
+    margin-top: 140px;
+  }
+  
+  .section3top h2 {
+    font-size: 46px;
+  }
+  
+  .section3top p {
+    font-size: 16px;
+  }
+  
+  .section3buttom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .projectcard {
+    width: 46%;
+  }
+  
+  /* Section 4 */
+  .section4 {
+    width: 90%;
+    margin-top: 140px;
+  }
+  
+  .section4left h2 {
+    font-size: 46px;
+  }
+  
+  .section4left span {
+    width: 100%;
+  }
+  
+  .teclaCara {
+    width: 68px;
+    height: 68px;
+    font-size: 11px;
+  }
+}
+  
+  
+/* ========================================
+    MÓVIL (≤ 768px)
+   ======================================== */
+  
+@media (max-width: 768px) {
+  
+  /* Navbar */
+  .navbar {
+    width: 92%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 0;
+    gap: 12px;
+  }
+  
+  .navbar section {
+    margin-top: 0;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .navbar h4 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  
+  .navbar span {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .navbar p {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+  
+  /* Hero */
+  .hero {
+    width: 92%;
+    margin-top: 80px;
+  }
+  
+  .hero h1 {
+    font-size: 38px;
+    width: 100%;
+    line-height: 1.2;
+  }
+  
+  .heroparrafo {
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .actionbtn {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  
+  .actionbtn p {
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  /* Section 1 */
+  .section1 {
+    width: 92%;
+    margin-top: 100px;
+  }
+  
+  .section1buttom {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .section1left h2 {
+    font-size: 30px;
+  }
+  
+  .section1right {
+    font-size: 15px;
+  }
+  
+  .bloq {
+    flex-direction: column;
+    height: auto;
+    gap: 14px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  /* Section 2 */
+  .section2 {
+    width: 92%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .section2title {
+    width: 92%;
+    margin-top: 100px;
+    font-size: 28px;
+  }
+  
+  .techcards {
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .imagenes {
+    width: 100%;
+  }
+  
+  /* Teclado — tamaño reducido en móvil */
+  .teclaCara {
+    width: 54px;
+    height: 54px;
+    font-size: 10px;
+    padding: 8px;
+    gap: 3px;
+  }
+  
+  .tecla {
+    transform: translateY(-12px);
+  }
+  
+  /* Section 3 */
+  .section3 {
+    width: 92%;
+    margin-top: 100px;
+  }
+  
+  .section3top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .section3top h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+  
+  .section3top p {
+    font-size: 15px;
+  }
+  
+  .section3buttom {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .projectcard {
+    width: 100%;
+  }
+  
+  .projectcard p {
+    font-size: 16px;
+  }
+  
+  .referencias {
+    height: auto;
+    min-height: 200px;
+  }
+  
+  /* Section 4 */
+  .section4 {
+    width: 92%;
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  
+  .section4left {
+    width: 100%;
+  }
+  
+  .section4left h2 {
+    font-size: 36px;
+  }
+  
+  .section4left span {
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .contactos {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+  
+  
+/* ========================================
+    MÓVIL PEQUEÑO (≤ 480px)
+   ======================================== */
+  
+@media (max-width: 480px) {
+  
+  .hero h1 {
+    font-size: 30px;
+  }
+  
+  .section1left h2 {
+    font-size: 24px;
+  }
+  
+  .section2title {
+    font-size: 22px;
+  }
+  
+  .section3top h2 {
+    font-size: 26px;
+  }
+  
+  .section4left h2 {
+    font-size: 28px;
+  }
+  
+  .teclaCara {
+    width: 44px;
+    height: 44px;
+    font-size: 9px;
+    padding: 6px;
+  }
+  
+  .techcards {
+    font-size: 17px;
+  }
 }
