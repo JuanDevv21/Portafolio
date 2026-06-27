@@ -344,3 +344,43 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.section4 {
+  margin-top: 222px;
+  width: 70%;
+  justify-self: center;
+  display: flex;
+}
+
+.section4left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section4left h2 {
+  font-family: 'Space';
+  color: white;
+  font-size: 60px;
+}
+
+.section4left span {
+  color: white;
+  font-family: 'Space';
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contactos {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.contactos p {
+  font-family: 'Space';
+  color: rgb(187, 175, 255);
+  letter-spacing: 1px;
+  font-size: 14px;
+}

@@ -25,6 +25,10 @@ import Css from "../assets/images/css.svg"
 import Ecodrop from "../assets/images/ecodrop.png"
 import Vasquez from "../assets/images/vasquez.png"
 import PropRent from "../assets/images/proprent.png"
+import FormularioContacto from "../components/Formulario"
+import Envelope from '../assets/images/envelope.svg'
+import Location from '../assets/images/location-blank.svg'
+import Phone from '../assets/images/phone.svg'
 
 
 const Home = () => {
@@ -268,6 +272,43 @@ const Home = () => {
                 <span className={styles.tags}>Playwright</span>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className={styles.section4}>
+          <div className={styles.section4left}>
+            <h2>¿Tienes una idea?<br></br> <span className={styles.textodegradado}>Hablemos</span></h2>
+            <span>Estoy disponible para proyectos freelance y colaboraciones de largo plazo. Cuéntame sobre tu proyecto y veamos cómo puedo ayudarte</span>
+            <div className={styles.contactos}>
+              <div style={{backgroundColor: '#1e2936', padding: '4px', borderRadius: '10px', marginRight: '10px'}}>
+                <Image src={Envelope} alt="Correo" width={40} height={40}></Image>
+              </div>
+              <div>
+                <p>EMAIL</p>
+                <span>camilo20126@gmail.com</span>
+              </div>
+            </div>
+            <div className={styles.contactos}>
+              <div style={{backgroundColor: '#1e2936', padding: '4px', borderRadius: '10px', marginRight: '10px'}}>
+                <Image src={Location} alt="Ubicacion" width={40} height={40}></Image>
+              </div>
+              <div>
+                <p>UBICACIÓN</p>
+                <span>Remoto - Disponible globalmente</span>
+              </div>
+            </div>
+            <div className={styles.contactos}>
+              <div style={{backgroundColor: '#1e2936', padding: '4px', borderRadius: '10px', marginRight: '10px'}}>
+                <Image src={Phone} alt="Phone" width={40} height={40}></Image>
+              </div>
+              <div>
+                <p>TELEFONO</p>
+                <span>+57 310 607 0752</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <FormularioContacto></FormularioContacto>
           </div>
         </section>
       </section>

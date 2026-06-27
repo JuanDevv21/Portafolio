@@ -1,0 +1,48 @@
+.formspace {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formspace label {
+    color: white;
+    font-family: 'Space';
+    margin-bottom: 5px;
+}
+
+.formspace input {
+    width: 400px;
+    height: 50px;
+    background-color: #1e2936;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    font-family: 'Space';
+}
+
+.formspace textarea {
+    background-color: #1e2936;
+    height: 65px;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    font-family: 'Space';
+}
+
+.f button {
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Space';
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+}
+
+.f button:hover {
+    color: #00f2fe;
+    border: 1px solid #00f2fe;
+}
