@@ -41,13 +41,12 @@ const Home = () => {
           <h4>Juan Camilo Gonzalez</h4>
         </section>
         <section>
-          <span>Sobre mi</span>
-          <span>Habilidades</span>
-          <span>Proyectos</span>
-          <span>Experiencia</span>
+          <a href="#section1"><span>Sobre mi</span></a>
+          <a href="#section2"><span>Habilidades</span></a>
+          <a href="#section3"><span>Proyectos</span></a>
         </section>
         <section>
-          <p>Contáctame</p>
+          <a href="#section4"><p>Contáctame</p></a>
         </section>
       </nav>
 
@@ -55,12 +54,12 @@ const Home = () => {
           <h1>Hola, soy <span className={styles.textodegradado}>Juan Camilo</span> Desarrollador<br></br> de <span className={styles.textodegradado}>Software</span></h1>
           <span className={styles.heroparrafo}>Diseño y construyo productos digitales rápidos, accesibles, escalables y centrados en el usuario. Convierto ideas en experiencias digitales que facilitan procesos y generan resultados</span>
           <div className={styles.actionbtn}>
-            <p>Trabajemos juntos</p>
-            <p>Mis proyectos</p>
+            <a href="#section4"><p>Trabajemos juntos</p></a>
+            <a href="#section3"><p>Mis proyectos</p></a>
           </div>
         </div>
 
-        <section className={styles.section1}>
+        <section className={styles.section1} id="section1">
           <div className={styles.section1top}>
             <p>SOBRE MÍ</p>
           </div>
@@ -89,7 +88,7 @@ const Home = () => {
           </div>
         </section>
 
-        <div className={styles.section2title}>
+        <div className={styles.section2title} id="section2">
           <h2>Herramientas con las que<br></br>que <span className={styles.textodegradado}>construyo</span>.</h2>
         </div>
         <section className={styles.section2}>
@@ -217,7 +216,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className={styles.section3}>
+        <section className={styles.section3} id="section3">
           <div className={styles.section3top}>
             <h2>Proyectos <span className={styles.textodegradado}>recientes</span>.</h2>
             <p>Algunos de los ultimos proyectos en los que he trabajado, desde MVPs hasta plataformas en producción</p>
@@ -275,7 +274,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className={styles.section4}>
+        <section className={styles.section4} id="section4">
           <div className={styles.section4left}>
             <h2>¿Tienes una idea?<br></br> <span className={styles.textodegradado}>Hablemos</span></h2>
             <span>Estoy disponible para proyectos freelance y colaboraciones de largo plazo. Cuéntame sobre tu proyecto y veamos cómo puedo ayudarte</span>
